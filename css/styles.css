@@ -23,7 +23,7 @@
 
 /* Navigation */
 .effect-moveleft .outer-nav a {
-	color: #e86a32;
+	color: #EE82EE;
 	opacity: 0;
 	transform: translateX(100px) translateZ(-1000px);
 	transition: transform 0.4s, opacity 0.4s;
