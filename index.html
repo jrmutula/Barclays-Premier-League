@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Barclays Premier League</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <script src="js/modernizr.custom.25376.js"></script>
 </head>
 
 <body>
@@ -12,7 +16,24 @@
         <div class="container">
             <div class="wrapper">
                 <!-- wrapper needed for scroll -->
-                <!-- ... -->
+                <div class="main clearfix">
+                    <div class="column">
+                        <p>
+                            <button id="showMenu">Show Menu</button>
+                        </p>
+                        <p>Click on this button to see the content being pushed away in 3D to reveal a navigation or other items.</p>
+                    </div>
+                    <div class="column">
+                        <nav class="codrops-demos">
+                            <a href="index.html" class="current-demo">Airbnb Effect</a>
+                            <a href="index2.html">Move Left</a>
+                            <a href="index3.html">Rotate Left</a>
+                            <a href="index4.html">Move Down</a>
+                            <a href="index5.html">Rotate Top</a>
+                            <a href="index6.html">Lay Down</a>
+                        </nav>
+                    </div>
+                </div>
             </div>
             <!-- wrapper -->
         </div>
@@ -28,6 +49,8 @@
         </nav>
     </div>
     <!-- /perspective -->
+    <script src="js/classie.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
