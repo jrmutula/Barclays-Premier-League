@@ -21,6 +21,18 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
+img{
+    width: 1100px;
+    height: 400px;
+}
+
+img:hover{
+    cursor: pointer;
+    outline-style: dashed;
+    opacity: 0.3;
+}
+
 a {
     text-decoration: none;
     color: #ed8151;
